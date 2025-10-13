@@ -8,7 +8,7 @@ export const professorData = {
   university: "Hanyang University (ERICA Campus)",
   email: "kyungwoo@hanyang.ac.kr",
   phone: "+82-31-400-5153",
-  profileImage: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop",
+  profileImage: "https://customer-assets.emergentagent.com/job_erica-professor/artifacts/m7mhdk33_file_1759663693442.jpg",
   bio: "Professor Kang Kyungwoo is a distinguished expert in transportation engineering and policy, with over three decades of experience spanning academia, government advisory roles, and international transportation organizations. His expertise has shaped Korea's transportation infrastructure development and policy framework.",
   expertise: "Professor Kang has served as a transportation policy expert and advisor to numerous government bodies and organizations. He has been frequently quoted in major Korean media outlets as an expert commentator on transportation infrastructure projects, traffic safety issues, and logistics policies. His practical experience includes international work with the New York Port Authority and extensive collaboration with Korean government ministries on national transportation infrastructure planning, making him uniquely qualified to bridge academic research with real-world policy implementation."
 };
