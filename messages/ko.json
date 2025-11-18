@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "home": "홈",
+    "about": "소개",
+    "research": "연구",
+    "publications": "논문",
+    "projects": "프로젝트",
+    "contact": "연락처"
+  },
+  "hero": {
+    "greeting": "강경우 교수",
+    "title": "교통시스템 및 물류",
+    "subtitle": "한양대학교 ERICA 캠퍼스",
+    "description": "지능형 교통 시스템, 화물 물류 및 교통 경제학 분야의 선도적 연구.",
+    "cta": "논문 보기",
+    "contact": "문의하기"
+  },
+  "about": {
+    "title": "교수 소개",
+    "bio": "강경우 교수님은 한양대학교 ERICA 캠퍼스의 저명한 교통공학 연구자입니다. 30년 이상의 경험을 바탕으로 지능형 교통 시스템(ITS), 화물 물류, 교통 경제학 및 교통 안전 분야를 연구하고 있습니다.",
+    "expertise": "전문 분야",
+    "areas": [
+      "지능형 교통 시스템 (ITS)",
+      "화물 운송 및 물류",
+      "교통 경제학",
+      "교통 안전 분석",
+      "전자 요금 징수 시스템",
+      "교통 정책 및 계획"
+    ]
+  },
+  "publications": {
+    "title": "연구 논문",
+    "total": "전체 논문 수",
+    "filter": "필터",
+    "search": "논문 검색...",
+    "sortBy": "정렬",
+    "year": "연도",
+    "type": "유형",
+    "language": "언어",
+    "all": "전체",
+    "journal": "학술지 논문",
+    "conference": "학술대회 논문",
+    "book": "저서 및 챕터",
+    "proceeding": "프로시딩",
+    "english": "영문",
+    "korean": "한글",
+    "newest": "최신순",
+    "oldest": "오래된순",
+    "noResults": "검색 결과가 없습니다",
+    "showMore": "더 보기",
+    "showLess": "접기"
+  },
+  "contact": {
+    "title": "연락처 정보",
+    "subtitle": "문의하기",
+    "email": "이메일",
+    "phone": "전화",
+    "office": "연구실 위치",
+    "address": "한양대학교 ERICA 캠퍼스<br/>경기도 안산시 상록구<br/>한양대학로 55<br/>15588 대한민국",
+    "form": {
+      "title": "메시지 보내기",
+      "name": "이름",
+      "email": "이메일",
+      "subject": "제목",
+      "message": "내용",
+      "send": "보내기",
+      "sending": "전송 중...",
+      "success": "메시지가 성공적으로 전송되었습니다!",
+      "error": "메시지 전송에 실패했습니다. 다시 시도해주세요."
+    }
+  },
+  "footer": {
+    "rights": "모든 권리 보유",
+    "university": "한양대학교 ERICA 캠퍼스",
+    "quickLinks": "바로가기",
+    "researchGate": "리서치게이트",
+    "googleScholar": "구글 스칼라",
+    "linkedIn": "링크드인"
+  }
+}

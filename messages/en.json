@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "research": "Research",
+    "publications": "Publications",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Professor K.W. Kang",
+    "title": "Transportation Systems & Logistics",
+    "subtitle": "Hanyang University ERICA Campus",
+    "description": "Leading research in intelligent transportation systems, freight logistics, and transportation economics.",
+    "cta": "View Publications",
+    "contact": "Get in Touch"
+  },
+  "about": {
+    "title": "About Professor Kang",
+    "bio": "Professor Kyung-Woo Kang is a distinguished researcher in Transportation Engineering at Hanyang University ERICA Campus. With over 30 years of experience, his research focuses on intelligent transportation systems (ITS), freight logistics, transportation economics, and traffic safety.",
+    "expertise": "Areas of Expertise",
+    "areas": [
+      "Intelligent Transportation Systems (ITS)",
+      "Freight Transportation & Logistics",
+      "Transportation Economics",
+      "Traffic Safety Analysis",
+      "Electronic Toll Collection Systems",
+      "Transportation Policy & Planning"
+    ]
+  },
+  "publications": {
+    "title": "Publications",
+    "total": "Total Publications",
+    "filter": "Filter",
+    "search": "Search publications...",
+    "sortBy": "Sort By",
+    "year": "Year",
+    "type": "Type",
+    "language": "Language",
+    "all": "All",
+    "journal": "Journal Articles",
+    "conference": "Conference Papers",
+    "book": "Books & Chapters",
+    "proceeding": "Proceedings",
+    "english": "English",
+    "korean": "Korean",
+    "newest": "Newest First",
+    "oldest": "Oldest First",
+    "noResults": "No publications found",
+    "showMore": "Show More",
+    "showLess": "Show Less"
+  },
+  "contact": {
+    "title": "Contact Information",
+    "subtitle": "Get in Touch",
+    "email": "Email",
+    "phone": "Phone",
+    "office": "Office Location",
+    "address": "Hanyang University ERICA Campus<br/>55 Hanyangdaehak-ro, Sangnok-gu<br/>Ansan, Gyeonggi-do 15588<br/>South Korea",
+    "form": {
+      "title": "Send a Message",
+      "name": "Your Name",
+      "email": "Your Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "error": "Failed to send message. Please try again."
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "university": "Hanyang University ERICA Campus",
+    "quickLinks": "Quick Links",
+    "researchGate": "ResearchGate",
+    "googleScholar": "Google Scholar",
+    "linkedIn": "LinkedIn"
+  }
+}
