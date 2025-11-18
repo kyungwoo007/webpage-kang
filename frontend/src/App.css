@@ -1,0 +1,9 @@
+/* Smooth scrolling for anchor links */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom styles for professor homepage */
+.App {
+    min-height: 100vh;
+}
