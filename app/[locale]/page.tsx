@@ -2,18 +2,20 @@ import {useTranslations} from 'next-intl';
 import Link from 'next/link';
 import {ArrowRight, BookOpen, Users, Award, TrendingUp} from 'lucide-react';
 
-export default function HomePage({params}: {params: Promise<{locale: string}>}) {
+export default async function HomePage({params}: {params: Promise<{locale: string}>}) {
+  const {locale} = await params;
+  
   return (
     <div>
-      <HeroSection params={params} />
-      <AboutSection params={params} />
-      <ResearchHighlights params={params} />
-      <StatsSection params={params} />
+      <HeroSection locale={locale} />
+      <AboutSection locale={locale} />
+      <ResearchHighlights locale={locale} />
+      <StatsSection locale={locale} />
     </div>
   );
 }
 
-function HeroSection({params}: {params: Promise<{locale: string}>}) {
+function HeroSection({locale}: {locale: string}) {
   const t = useTranslations('hero');
   
   return (
@@ -53,14 +55,14 @@ function HeroSection({params}: {params: Promise<{locale: string}>}) {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
             <Link
-              href={`/${(async () => (await params).locale)()}/publications`}
+              href={`/${locale}/publications`}
               className="group px-8 py-4 bg-white text-[var(--primary)] rounded-lg font-semibold hover:shadow-xl transition-all duration-300 flex items-center space-x-2"
             >
               <span>{t('cta')}</span>
               <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
             </Link>
             <Link
-              href={`/${(async () => (await params).locale)()}/contact`}
+              href={`/${locale}/contact`}
               className="px-8 py-4 bg-transparent border-2 border-white text-white rounded-lg font-semibold hover:bg-white hover:text-[var(--primary)] transition-all duration-300"
             >
               {t('contact')}
@@ -79,7 +81,7 @@ function HeroSection({params}: {params: Promise<{locale: string}>}) {
   );
 }
 
-function AboutSection({params}: {params: Promise<{locale: string}>}) {
+function AboutSection({locale}: {locale: string}) {
   const t = useTranslations('about');
   
   return (
@@ -164,7 +166,7 @@ function ResearchHighlights({params}: {params: Promise<{locale: string}>}) {
   );
 }
 
-function StatsSection({params}: {params: Promise<{locale: string}>}) {
+function StatsSection({locale}: {locale: string}) {
   const stats = [
     { label: 'Years of Research', value: '30+' },
     { label: 'Publications', value: '300+' },
